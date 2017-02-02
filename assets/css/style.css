@@ -1,0 +1,210 @@
+body {
+    background: url("../images/seamless_paper_texture.png");
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-repeat: repeat;
+
+}
+/*Altering universal text attributes*/
+a {
+    text-decoration: none;
+    color: #777777 ;
+}
+
+h1, h2, h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ul{
+    list-style-type: none;
+}
+
+/*Defining how the header looks*/
+header {
+    background-color: white;
+    border-bottom: 2px solid #777777;
+    height: 100px;
+    text-align: center;
+    margin: -1% -1% 0px -1%;
+    padding-top: 2px;
+
+}
+
+#headcontent{
+    display: inline-block;
+    max-width: 960px;
+    width: 90%;
+    height: 100%;
+}
+
+#myname {
+    background-color: #4aaaa5;
+    display: inline-block;
+    float: left;
+    white-space: nowrap;
+    padding: 0px 50px 0px 50px;
+    height: 100%;
+}
+
+#myname h1{
+    color: white;
+    font-size: 2em;
+}
+
+nav {
+    float: right;
+    height: 100%;
+    white-space: nowrap;
+}
+
+.navlink {
+    white-space: nowrap;
+    border-right: 1px solid rgba(0,0,0,.1);
+    display: inline-block;
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.navlink a:hover {
+            background-color: gray;
+            color: white;
+        }
+
+.lastnavlink {
+    padding: 0px 0px 0px 15px;  
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.lastnavlink a:hover {
+            background-color: gray;
+            color: white;
+        }
+/*contains all sections below the header and above the footer*/
+#container { 
+    margin: 50px auto;    
+    width: 960px;
+    align-self: center;
+}
+
+/*defining how the content looks*/
+section h1{
+    font-size: 2em;
+}
+
+#aboutme {
+    background-color: white;
+    width: 650px;
+    float: left;
+    border: 1px solid #777777;
+}
+
+#aboutmeheader {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    margin:0px 50px 20px 50px;
+    width: 550px;
+    height: 100px;
+    border-bottom: 2px solid #777777;
+}
+
+#aboutmecontent {
+    display: block;
+    float: left;
+    margin:0px 50px 0px 50px;
+    width: 550px;
+}
+
+#profile {
+    height: 200px;
+    float: left;
+    margin-right: 20px
+}
+/*defining how the link area looks*/
+aside {
+    background-color: white;
+    width: 270px;
+    float: right;
+    border: 1px solid #777777;
+    padding-bottom: 40px;
+}
+
+aside h2{
+    font-weight: 600;
+}
+
+#connectheader {
+    display: block;
+    float: left;
+    white-space: nowrap;
+    margin: 0px 30px 25px 30px;
+    width: 210px;
+    height: 70px;
+    border-bottom: 2px solid #777777;
+}
+
+#connectbuttons{
+    margin-left: 30px;
+    line-height: 68px;
+}
+
+#connectbuttons img{
+    height: 68px;
+}
+
+#connectbuttons img:hover{
+    background-color: red;
+}
+
+/*this div ensure that the content is always able to seen when scroll is happening.  Without it the footer covers some content.*/
+#protectcontent{
+    clear: both; 
+    display: block;
+    height: 110px;
+    width: 100%;
+}
+
+/*defining how the footer looks*/
+footer{  
+    position: fixed;
+    bottom: 0;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    background-color: gray;
+    border-top: 6px solid #4aaaa5;
+    font-size: small;
+    color: white;
+    height: 100px;
+
+}
+
+#copyright{
+    color: white;
+    font-size: small;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
